@@ -103,77 +103,127 @@
     <body>
         <header>
             <h1>Privacy Policy</h1>
-            <p>Puzzleshift &nbsp;·&nbsp; Effective Date: March 25, 2026</p>
+            <p>Puzzleshift &nbsp;·&nbsp; Effective Date: March 28, 2026</p>
         </header>
-
         <div class="container">
-            <span class="badge">✔ No personal data collected</span>
+            <span class="badge">✔ No account or personal information required</span>
 
             <h2>1. Introduction</h2>
             <p>
                 Welcome to <strong>Puzzleshift</strong>. We are committed to
-                protecting your privacy. This Privacy Policy explains how we
-                handle information when you use our mobile application (the
-                "App").
+                protecting your privacy. This Privacy Policy explains what
+                information is collected, how it is used, and your rights
+                when you use our mobile application (the "App").
             </p>
             <p>
                 By using the App, you agree to the terms described in this
                 Privacy Policy. If you do not agree, please do not use the App.
             </p>
 
-            <h2>2. Information We Do Not Collect</h2>
+            <h2>2. Information We Collect</h2>
             <p>
-                Puzzleshift does not collect, store, or transmit any personal
-                information from its users. Specifically, we do not collect:
+                Puzzleshift does not require any account, login, or personal
+                information. The only data generated is an <strong>anonymous
+                device identifier</strong> — a randomly generated ID (UUID)
+                created the first time you use VS Mode. This ID:
             </p>
             <ul>
-                <li>
-                    Names, email addresses, phone numbers, or any contact
-                    information
-                </li>
+                <li>Is generated entirely at random on your device</li>
+                <li>Is not linked to your name, email address, or any personal information</li>
+                <li>Is used solely to identify your device within a VS Mode game session</li>
+                <li>Is stored locally on your device and transmitted to our game servers only when you use VS Mode</li>
+            </ul>
+            <p>
+                When you create or join a VS Mode room, the following game
+                session data is stored on our servers:
+            </p>
+            <ul>
+                <li>Your anonymous device ID</li>
+                <li>Room code and game configuration (puzzle image, board size)</li>
+                <li>Game state and completion times</li>
+                <li>Session timestamps (when the room was created and last active)</li>
+            </ul>
+            <p>
+                We do <strong>not</strong> collect:
+            </p>
+            <ul>
+                <li>Names, email addresses, phone numbers, or any contact information</li>
                 <li>Location data or GPS coordinates</li>
-                <li>Device identifiers or advertising IDs</li>
+                <li>Advertising IDs or device fingerprints</li>
                 <li>Photos, videos, or files from your device</li>
-                <li>Usage data, analytics, or behavioral information</li>
-                <li>Any other personally identifiable information</li>
+                <li>Browsing history or behavioral analytics</li>
             </ul>
 
-            <h2>3. Third-Party Services</h2>
+            <h2>3. How We Use This Information</h2>
             <p>
-                The App does not integrate any third-party SDKs, analytics
-                tools, advertising networks, or services that may collect data
-                on our behalf.
+                The anonymous device ID and room data are used exclusively to
+                operate the VS Mode multiplayer feature — specifically to match
+                two players in the same room and determine the outcome of the
+                game. This data is not used for advertising, profiling, or any
+                purpose beyond enabling real-time gameplay.
             </p>
             <p>
-                The App does not contain any advertisements or tracking
-                mechanisms.
-            </p>
-
-            <h2>4. App Permissions</h2>
-            <p>
-                The App may request access to certain device features solely to
-                provide its core functionality. Any permissions requested are
-                used only for the stated purpose and no data derived from these
-                permissions is stored or shared externally.
+                Game room data is temporary and may be automatically deleted
+                from our servers after a period of inactivity.
             </p>
 
-            <h2>5. Children's Privacy</h2>
+            <h2>4. Third-Party Services</h2>
             <p>
-                The App is not directed to children under the age of 13. We do
-                not knowingly collect any personal information from children. If
-                you are a parent or guardian and believe your child has provided
-                us with personal information, please contact us so we can take
-                appropriate action.
+                Puzzleshift uses <strong>Supabase</strong> (supabase.com) as
+                its backend database and real-time infrastructure to power
+                VS Mode. When you use VS Mode, game session data is transmitted
+                to and stored on Supabase servers. Supabase's privacy practices
+                are governed by their own
+                <a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a>.
+            </p>
+            <p>
+                The App does not integrate any advertising networks, analytics
+                SDKs, social login providers, or any other third-party data
+                collection services.
             </p>
 
-            <h2>6. Data Security</h2>
+            <h2>5. App Permissions</h2>
             <p>
-                Since we do not collect or store any personal data, there is no
-                user data at risk of unauthorized access, disclosure, or breach
-                on our servers. All app data remains solely on your device.
+                The App requests the following device permissions to provide
+                its core functionality:
+            </p>
+            <ul>
+                <li><strong>Internet access</strong> — required for VS Mode to connect to game servers</li>
+                <li><strong>Network state</strong> — used to check connectivity before attempting multiplayer</li>
+                <li><strong>Audio settings</strong> — used to manage in-game sound playback</li>
+            </ul>
+            <p>
+                No data derived from these permissions is stored or shared
+                beyond what is described in this policy.
             </p>
 
-            <h2>7. Changes to This Privacy Policy</h2>
+            <h2>6. Children's Privacy</h2>
+            <p>
+                The App is suitable for all ages and does not collect any
+                personal information from any user, including children under
+                the age of 13. If you are a parent or guardian and have
+                concerns about your child's use of this App, please contact us.
+            </p>
+
+            <h2>7. Data Security</h2>
+            <p>
+                Single-player game data is stored entirely on your device and
+                never transmitted externally. VS Mode session data transmitted
+                to Supabase is protected using industry-standard encryption
+                (TLS) in transit. No passwords, financial data, or personal
+                identifiers are ever stored on our servers.
+            </p>
+
+            <h2>8. Data Retention</h2>
+            <p>
+                Your anonymous device ID is stored locally on your device until
+                you uninstall the App. VS Mode room data on our servers is
+                temporary and may be purged automatically after a period of
+                inactivity. You may contact us at any time to request deletion
+                of any data associated with your anonymous device ID.
+            </p>
+
+            <h2>9. Changes to This Privacy Policy</h2>
             <p>
                 We may update this Privacy Policy from time to time. Any changes
                 will be reflected by updating the "Effective Date" at the top of
@@ -185,15 +235,16 @@
                 acceptance of the updated Privacy Policy.
             </p>
 
-            <h2>8. Your Rights</h2>
+            <h2>10. Your Rights</h2>
             <p>
-                Since we do not collect any personal data, there is no personal
-                information for you to access, correct, or delete. If you have
-                any questions or concerns regarding your privacy, you are
-                welcome to contact us.
+                Since Puzzleshift does not collect personal information, there
+                are no personal profiles to access or correct. If you wish to
+                request deletion of the anonymous game data associated with
+                your device, please contact us with your device's anonymous
+                player ID and we will remove it from our servers.
             </p>
 
-            <h2>9. Contact Us</h2>
+            <h2>11. Contact Us</h2>
             <p>
                 If you have any questions or concerns about this Privacy Policy
                 or our practices, please contact us at:
@@ -207,7 +258,6 @@
                 manner.
             </p>
         </div>
-
-        <footer>This Privacy Policy was last updated on March 25, 2026.</footer>
+        <footer>This Privacy Policy was last updated on March 28, 2026.</footer>
     </body>
 </html>
